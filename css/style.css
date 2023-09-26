@@ -51,6 +51,17 @@ body {
 
 #item4{
   background-image: url('../img/item4-big.svg');
-  background-size: 90%;
-  background-repeat: no-repeat;
+  width:1000px;
+  height:600px;
+  background-size: cover;
+}
+
+#star {
+  background-image: url('../img/stars.svg');
+  background-size: 100%;
+  
+}
+
+#flag {
+  height: 16px;
 }
