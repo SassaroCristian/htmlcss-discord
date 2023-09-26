@@ -32,6 +32,12 @@ body {
   margin: auto;
 }
 
+#logo-column {
+  background-image: url('../img/logo.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 #jumbotron {
   background-image: url('../img/jumbo.png');
   background-size: cover;
