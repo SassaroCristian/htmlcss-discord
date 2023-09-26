@@ -20,7 +20,7 @@ body {
 }
 
 .riga {
-  min-height: 700px;
+  min-height: 600px;
 }
 
 .riga-big {
@@ -30,4 +30,27 @@ body {
 #riga-footer {
   width: 100%;
   margin: auto;
+}
+
+#jumbotron {
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+}
+
+#item1{
+  background-image: url('../img/item1.svg');
+}
+
+#item2{
+  background-image: url('../img/item2.svg');
+}
+
+#item3{
+  background-image: url('../img/item3.svg');
+}
+
+#item4{
+  background-image: url('../img/item4-big.svg');
+  background-size: 90%;
+  background-repeat: no-repeat;
 }
