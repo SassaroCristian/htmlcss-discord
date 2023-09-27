@@ -150,6 +150,69 @@
   padding: 120px 200px;
 }
 
+
+/* margini */
+
+.m-16 {
+  margin: 16px;
+}
+.mt-16 {
+  margin-top: 16px;
+}
+.mr-16 {
+  margin-right: 16px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.ml-16 {
+  margin-left: 16px;
+}
+.my-16 {
+  margin: 16px 0;
+}
+.mx-16 {
+  margin: 0 16px;
+}
+
+.m-64 {
+  margin: 64px;
+}
+.mt-64 {
+  margin-top: 64px;
+}
+.mr-64 {
+  margin-right: 64px;
+}
+.mb-64 {
+  margin-bottom: 64px;
+}
+.ml-64 {
+  margin-left: 64px;
+}
+.my-64 {
+  margin: 64px 0;
+}
+.mx-64 {
+  margin: 0 64px;
+}
+
+.mcustom {
+  margin: 120px 200px;
+}
+
+.w-t {
+  color: white;
+}
+
+.t-s-h1 {
+  font-size: 48px;
+}
+
+.t-s-p {
+  font-size: 18px;
+}
+
 /*** COLORI DI SFONDO ***/
 /* Classi per impostare colori di sfondo */
 .bg-lightblue {
@@ -161,7 +224,7 @@
 .bg-darkblue {
   background-color: darkblue;
 }
-.bg-dodgerblue {
+.bg-header {
   background-color: #255EE9;
 }
 .bg-pink {

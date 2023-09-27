@@ -1,141 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>htmlcss-struttura-discord</title>
-	<link rel="stylesheet" href="css/utilities.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>htmlcss-struttura-discord</title>
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atomico.css" />
+  </head>
+  <body>
+    <!-- Intestazione (Header) -->
+    <div class="bg-header">
+      <!-- Start NAVBAR -->
+      <nav
+        class="container d-flex flex-justify-between flex-align-center py-16">
+        <div id="logo-column p-16 " class="w-20">
+          	<a class="d-flex" href="#">
+				<img src="../img/logo.svg" alt="Discord Logo"/>
+			</a>
+        </div>
 
-	<!-- Intestazione (Header) -->
-	<div class="bg-dodgerblue">
-		
-		<!-- Start NAVBAR -->
-		<nav class="container d-flex flex-justify-between flex-align-center py-16">
-			<div id="logo-column" class=" w-20 p-16"></div>
-			<div id="menu-column" class=" w-60 p-16">
-				<ul class="d-flex flex-justify-center">
-					<li class="px-16">link</li>
-					<li class="px-16">link</li>
-					<li class="px-16">link</li>
-					<li class="px-16">link</li>
-					<li class="px-16">link</li>
-				</ul>
-			</div>
-			<div id="login-column" class=" w-20 p-16">
-				login
-			</div>
-		</nav>
-		<!-- End NAVBAR -->
+        <div id="menu-column" class="w-60 p-16">
+          <ul class="d-flex flex-justify-center">
+            <li class="px-16"><a href="#">Scarica</a></li>
+            <li class="px-16"><a href="#">Perchè Discord</a></li>
+            <li class="px-16"><a href="#">Nitro</a></li>
+            <li class="px-16"><a href="#">Sicurezza</a></li>
+            <li class="px-16"><a href="#">Assistenza</a></li>
+          </ul>
+        </div>
 
-		
-		<!-- Start HEADER -->
+        <div id="login-column" class="w-20 p-16">
+          <a class="btn btn-white btn-small" href="">Accedi</a>
+        </div>
+      </nav>
+      <!-- End NAVBAR -->
 
-		<!-- Al tag in cui si passa la proprietà flex, la subisce il primo figlio disponibile -->
-		<header id="jumbotron" class="bg-darkblue py-64">
-			<div class="jumbo-content d-flex flex-justify-center flex-align-center flex-column w-50 ">
-				<h1 class="">Il tuo posto per parlare</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates laudantium, animi, repudiandae hic tempore facere voluptatem quasi sequi error doloribus ea consequuntur. Quasi, porro ducimus dicta cupiditate sit placeat laudantium.</p>
-				<div class="d-flex flex-justify-center flex-align-center">
-					<button>Click me</button>
-					<button>Click me</button>
-				</div>
-			</div>
-		</header>
-		<!-- END HEADER-->
+      <!-- Start HEADER -->
 
-	</div>
+      <!-- Al tag in cui si passa la proprietà flex, la subisce il primo figlio disponibile -->
+      <header id="jumbotron" class="py-64">
+        <div
+          class="jumbo-content d-flex flex-justify-center flex-align-center flex-column w-50">
+          <h1 class="mb-16 t-s w-t">Il tuo posto per parlare</h1>
+          <p class="w-t t-s-p mb-16">
+            Che tu faccia parte di un club scolastico, gruppo di gamer, comunità
+            artistica mondiale, o semplicemente di un picoolo gruppo di amici
+            che vuole passare il tempo assieme, Discord rende più facile
+            chiacchierare ogni giorno e ritrovarsi più spesso
+          </p>
+          <div class="d-flex flex-justify-center flex-align-center">
+            <button class="mx-16 btn btn-white">
+              <img src="./icone/down-long.svg" alt="" />
+              Scarica per Mac
+            </button>
+            <button class="mx-16 btn btn-black">
+              Apri Discord nel tuo browser
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- END HEADER-->
+    </div>
 
+    <main>
+      <!-- Prima sezione del contenuto principale -->
+      <section>
+        <div class="riga container d-flex py-64">
+          <div class="w-60"><img src="./img/item1.svg" alt="" /></div>
+          <div
+            class="px-64 w-40 d-flex flex-justify-center flex-align-center flex-column">
+            <h2>
+              Un luogo a invito con tutto lo spazio necessario per parlare
+            </h2>
+            <p>
+              I server Discord sono organizati in canali telematici in cui puoi
+              collaborare, condividere o semplicemente parlare dela tua giornata
+              senza intasare una chat di gruppo.
+            </p>
+          </div>
+        </div>
+      </section>
 
-
-	<main>
-		<!-- Prima sezione del contenuto principale -->
+      <!-- Seconda sezione del contenuto principale -->
+	  <div class="wave"></div>
 		<section>
-			<div class="riga container d-flex py-64">
-				<div id="item1" class=" w-60"></div>
-				<div class="p-64 w-40 d-flex flex-justify-center flex-align-center flex-column">
-					<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta hic reprehenderit quae recusandae rem magni eligendi iste consequuntur ratione fuga ipsa eos adipisci impedit illum optio officia error, commodi accusantium.</p>
-				</div>
-			</div>
-		</section>
-
-		<!-- Seconda sezione del contenuto principale -->
-		<section class="bg-lightgray">
-			<div class="riga container d-flex py-64">
-				<div class="p-64 w-40 d-flex flex-justify-center flex-align-center flex-column">
-					<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta hic reprehenderit quae recusandae rem magni eligendi iste consequuntur ratione fuga ipsa eos adipisci impedit illum optio officia error, commodi accusantium.</p>
+			<section class="bg-lightgray">
+				<div class="riga container d-flex py-64">
+				<div
+					class="px-64 w-40 d-flex flex-justify-center flex-align-center flex-column">
+					<h2>Dove trovarsi è facile</h2>
+					<p>
+					Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel
+					tuo server possono vedere che sei lì e unirsi istantaneamente
+					senza dover chiamare.
+					</p>
 				</div>
 
-				<div id="item2" class=" w-60 "></div>
-			</div>
-		</section>
-
-		<!-- Terza sezione del contenuto principale -->
-		<section>
-			<div class="riga container d-flex py-64">
-				<div id="item3" class=" w-60"></div>
-				<div class="p-64 w-40 d-flex flex-justify-center flex-align-center flex-column">
-					<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta hic reprehenderit quae recusandae rem magni eligendi iste consequuntur ratione fuga ipsa eos adipisci impedit illum optio officia error, commodi accusantium.</p>
+				<div class="w-60"><img src="./img/item2.svg" alt="" /></div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<!-- Quarta sezione del contenuto principale -->
-		<section class="bg-lightgray">
-			<div class="riga-big container d-flex flex-justify-center flex-align-center flex-column py-64">
-				<div class="d-flex flex-justify-center flex-align-center flex-column">
-					<h2>  elit. Laborum, voluptatum? Consectetur commodi quaerat neque voluptas nihil quia suscipi</h2>
-					<p>nsectetur adipisicing elit. Quasi voluptatem temporibus unde sint natus dolore accusantium totam asperiores nulla? Itaque nobis sequi animi unde et! Voluptatibus odio quis numquam commodi.</p>
-				</div>
-				<div class="d-flex">
-					<div class="w-100 " id="item4"></div>
-				</div>
-				<div class="d-flex d-flex flex-justify-center flex-align-center flex-column ">
-					<h3 id="star" class="pb-16">pronto ad iniziare la tua avventura?</h3>
-					<button class="">cliccami!</button>
-				</div>
-			</div>
-		</section>
+		<div class="wave rotate"></div>
 
-	</main>
-
-
-
-	<footer>
-		<!-- Prima sezione del footer di pagina (Footer) -->
-		<section class="bg-darkslategray">
-			<div class="riga container d-flex py-64">
-				<div class="d-flex pl-16 flex-column  w-40 bg-lightcoral dashed">
-					<h3 class="w-100 pt-16">Il tuo posto per parlare</h3>
-					<div class="d-flex lex-justify-center flex-align-center">
-						<img id="flag" src="../img/ita.png" alt="">
-						<p>Italiano</p>
+			<!-- Terza sezione del contenuto principale -->
+				<div class="riga container d-flex py-64">
+					<div id="item3" class="w-60">
+						<img src="./img/item3.svg" alt="" />
+					</div>
+					<div
+						class="px-64 w-40 d-flex flex-justify-center flex-align-center flex-column">
+						<h2>Da pochi a un fandom</h2>
+						<p>
+						Dai inizio a una community di qualsiasi dimensione con srumenti di
+						moderazione e accesso ai membri personalizzabile. Concedi ai
+						membri poteri speciali, crea canali privati, de molto altro.
+						</p>
 					</div>
 				</div>
-				<div class=" w-20 bg-lightseagreen dashed"></div>
-				<div class=" w-20 bg-lightseagreen dashed"></div>
-				<div class=" w-20 bg-lightseagreen dashed"></div>
-				<div class=" w-20 bg-lightseagreen dashed"></div>
-			</div>
-		</section>
-
-		<hr>
+			</section>
 	
+      <!-- Quarta sezione del contenuto principale -->
+	  <div class="wave"></div>
+      <section class="bg-lightgray">
+        <div
+          class="riga-big container d-flex flex-justify-center flex-align-center flex-column py-64">
+          <div class="d-flex flex-justify-center flex-align-center flex-column">
+            <h2>Tecnologia affidabile per tenersi in contatto</h2>
+            <p>
+              Video e audio a bassa latenza ti faranno sentire come se foste
+              tutti nella stessa stanza. fai ciao in video, guarda gli amici
+              giocare in streaming, o riunitevi in una sessione di disegno con
+              la condivisione di schermo
+            </p>
+          </div>
+          <div class="d-flex">
+            <div class="w-100">
+              <img src="./img/item4-big.svg" alt="" />
+            </div>
+          </div>
+          <div
+            class="d-flex d-flex flex-justify-center flex-align-center flex-column">
+            <h3 id="star" class="pb-16">
+              Pronto ad iniziare la tua avventura?
+            </h3>
+            <button class="btn">
+              <img src="./icone/down-long.svg" alt="download icon"/>
+              Scarica per Mac
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer>
+      <!-- Prima sezione del footer di pagina (Footer) -->
+      <section class="bg-darkslategray">
+        <div class="riga container d-flex py-64">
+          <div class="d-flex pl-16 flex-column w-40 bg-lightcoral dashed">
+            <h3 class="w-100 pt-16">Il tuo posto per parlare</h3>
+            <div class="d-flex lex-justify-center flex-align-center">
+              <img id="flag" src="../img/ita.png" alt="" />
+              <p>Italiano</p>
+            </div>
+          </div>
+          <div class="w-20 bg-lightseagreen dashed">
+            <p>Prodotto</p>
+          </div>
+          <div class="w-20 bg-lightseagreen dashed"></div>
+          <div class="w-20 bg-lightseagreen dashed"></div>
+          <div class="w-20 bg-lightseagreen dashed"></div>
+        </div>
+      </section>
 
-		<!-- Seconda sezione del footer di pagina (Footer) -->
-		<section class="bg-darkslategray pt-16">
-			<div id="riga-footer" class="container d-flex flex-justify-between py-16 bg-aquamarine">
-				<div class="dashed bg-lightgray d-flex p-16">logo</div>
-				<div class="dashed bg-lightgray d-flex p-16">bottone</div>
-			</div>
-		</section>
-	</footer>
-	
-</body>
+      <hr/>
+
+      <!-- Seconda sezione del footer di pagina (Footer) -->
+      <section class="bg-darkslategray pt-16">
+        <div
+          id="riga-footer"
+          class="container d-flex flex-justify-between py-16 bg-aquamarine">
+          <div class="dashed bg-lightgray d-flex p-16">logo</div>
+          <div class="dashed bg-lightgray d-flex p-16">bottone</div>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

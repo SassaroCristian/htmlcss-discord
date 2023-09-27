@@ -1,0 +1,57 @@
+a   {
+    text-decoration: none;
+}
+#menu-column li > a {
+    color: white;
+  }
+  
+
+  /* bottoni */
+  .btn {
+    border-radius: 23px;
+    background-color: #7289da;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    display: inline-flex;
+    
+  }
+  
+  .btn-small {
+    padding: 8px 16px;
+  }
+  
+  .btn-white {
+    background-color: white;
+    color: black;
+  }
+  
+  .btn-black {
+    background-color: black;
+  }
+
+  .btn > img {
+    width: 1em;
+    height: 1em;
+  }
+
+  main h2 {
+    font-size: 48px;
+    margin: 30px 0;
+  }
+
+  main p {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .wave {
+    background-image: url('../img/wave.svg');
+    background-size: cover;
+    height: 100px;
+    filter: opacity(0.17);
+  }
+
+  .rotate {
+    transform: rotate(-180deg)
+  }

@@ -32,40 +32,22 @@ body {
   margin: auto;
 }
 
-#logo-column {
-  background-image: url('../img/logo.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 #jumbotron {
-  background-image: url('../img/jumbo.png');
+  background-image: url("../img/jumbo.png");
   background-size: cover;
-}
-
-#item1{
-  background-image: url('../img/item1.svg');
-}
-
-#item2{
-  background-image: url('../img/item2.svg');
-}
-
-#item3{
-  background-image: url('../img/item3.svg');
-}
-
-#item4{
-  background-image: url('../img/item4-big.svg');
-  width:1000px;
-  height:600px;
-  background-size: cover;
+  background-position: center;
 }
 
 #star {
-  background-image: url('../img/stars.svg');
-  background-size: 100%;
-  
+  background-image: url("../img/stars.svg");
+  margin: 50px 0; 
+  font-size: 35px;
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  margin-bottom: 20px;
+
 }
 
 #flag {
